@@ -9,14 +9,18 @@
 /* Begin PBXBuildFile section */
 		90D31AD68A3F67F98F17730C /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D486E86057D622FE9EC6F8 /* Pods_HelloWorld.framework */; };
 		9D24D69ACB88C5FE640201AE /* Pods_HelloWorldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0541621D82956AD504526804 /* Pods_HelloWorldTests.framework */; };
-		CE09F0FA1D92575A00505113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F0F91D92575A00505113 /* AppDelegate.swift */; };
-		CE09F0FC1D92575A00505113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F0FB1D92575A00505113 /* ViewController.swift */; };
-		CE09F0FF1D92575A00505113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE09F0FD1D92575A00505113 /* Main.storyboard */; };
-		CE09F1011D92575A00505113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE09F1001D92575A00505113 /* Assets.xcassets */; };
 		CE09F1041D92575A00505113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE09F1021D92575A00505113 /* LaunchScreen.storyboard */; };
 		CE09F10F1D92575A00505113 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F10E1D92575A00505113 /* HelloWorldTests.swift */; };
-		CE09F11A1D9259B900505113 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F1191D9259B900505113 /* MessageModel.swift */; };
 		CE09F11C1D925E4F00505113 /* MessageModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F11B1D925E4F00505113 /* MessageModelTests.swift */; };
+		CE09F1291D94CF0800505113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F11E1D94CF0800505113 /* ViewController.swift */; };
+		CE09F12A1D94CF0800505113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE09F1201D94CF0800505113 /* Assets.xcassets */; };
+		CE09F12C1D94CF0800505113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F1231D94CF0800505113 /* AppDelegate.swift */; };
+		CE09F12D1D94CF0800505113 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F1251D94CF0800505113 /* MessageModel.swift */; };
+		CE09F12F1D94CF5C00505113 /* ViewControllerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE09F12E1D94CF5C00505113 /* ViewControllerStoryboard.storyboard */; };
+		CE09F1311D94CFB000505113 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE09F1301D94CFB000505113 /* Info.plist */; };
+		CE09F1331D94D0DA00505113 /* MessageDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F1321D94D0DA00505113 /* MessageDefine.swift */; };
+		CE09F1351D94D15500505113 /* String+Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F1341D94D15500505113 /* String+Message.swift */; };
+		CE8BFCFE1D94E732000F3918 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8BFD001D94E732000F3918 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +39,23 @@
 		0BADA52C1C63663C26414CF3 /* Pods-HelloWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CDAAC119B32D4FB701C9F02 /* Pods-HelloWorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorldTests/Pods-HelloWorldTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE09F0F61D92575A00505113 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE09F0F91D92575A00505113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE09F0FB1D92575A00505113 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE09F0FE1D92575A00505113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE09F1001D92575A00505113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE09F1031D92575A00505113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CE09F1051D92575A00505113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE09F10A1D92575A00505113 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE09F10E1D92575A00505113 /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
 		CE09F1101D92575A00505113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE09F1191D9259B900505113 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		CE09F11B1D925E4F00505113 /* MessageModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModelTests.swift; sourceTree = "<group>"; };
+		CE09F11E1D94CF0800505113 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE09F1201D94CF0800505113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE09F1231D94CF0800505113 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE09F1251D94CF0800505113 /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		CE09F12E1D94CF5C00505113 /* ViewControllerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ViewControllerStoryboard.storyboard; sourceTree = "<group>"; };
+		CE09F1301D94CFB000505113 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		CE09F1321D94D0DA00505113 /* MessageDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDefine.swift; sourceTree = "<group>"; };
+		CE09F1341D94D15500505113 /* String+Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Message.swift"; sourceTree = "<group>"; };
+		CE8BFCFF1D94E732000F3918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE8BFD011D94E747000F3918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE8BFD021D94E769000F3918 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CE8BFD031D94E769000F3918 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ED0EBB6D0DFD47B51C0D6364 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
 		F8D486E86057D622FE9EC6F8 /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,13 +123,13 @@
 		CE09F0F81D92575A00505113 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				CE09F0F91D92575A00505113 /* AppDelegate.swift */,
-				CE09F0FB1D92575A00505113 /* ViewController.swift */,
-				CE09F0FD1D92575A00505113 /* Main.storyboard */,
-				CE09F1001D92575A00505113 /* Assets.xcassets */,
-				CE09F1021D92575A00505113 /* LaunchScreen.storyboard */,
-				CE09F1051D92575A00505113 /* Info.plist */,
-				CE09F1191D9259B900505113 /* MessageModel.swift */,
+				CE09F1281D94CF0800505113 /* Config */,
+				CE09F11D1D94CF0800505113 /* Controllers */,
+				CE09F1241D94CF0800505113 /* Models */,
+				CE09F1271D94CF0800505113 /* Views */,
+				CE09F1221D94CF0800505113 /* Boot */,
+				CE09F1261D94CF0800505113 /* Extensions */,
+				CE09F11F1D94CF0800505113 /* Resources */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -132,6 +142,65 @@
 				CE09F11B1D925E4F00505113 /* MessageModelTests.swift */,
 			);
 			path = HelloWorldTests;
+			sourceTree = "<group>";
+		};
+		CE09F11D1D94CF0800505113 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE09F11E1D94CF0800505113 /* ViewController.swift */,
+				CE09F12E1D94CF5C00505113 /* ViewControllerStoryboard.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE09F11F1D94CF0800505113 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE09F1201D94CF0800505113 /* Assets.xcassets */,
+				CE09F1301D94CFB000505113 /* Info.plist */,
+				CE09F1021D92575A00505113 /* LaunchScreen.storyboard */,
+				CE8BFD001D94E732000F3918 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE09F1221D94CF0800505113 /* Boot */ = {
+			isa = PBXGroup;
+			children = (
+				CE09F1231D94CF0800505113 /* AppDelegate.swift */,
+			);
+			path = Boot;
+			sourceTree = "<group>";
+		};
+		CE09F1241D94CF0800505113 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE09F1251D94CF0800505113 /* MessageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE09F1261D94CF0800505113 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE09F1341D94D15500505113 /* String+Message.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE09F1271D94CF0800505113 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE09F1281D94CF0800505113 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CE09F1321D94D0DA00505113 /* MessageDefine.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +277,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = CE09F0ED1D92575A00505113;
 			productRefGroup = CE09F0F71D92575A00505113 /* Products */;
@@ -225,9 +295,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8BFCFE1D94E732000F3918 /* Localizable.strings in Resources */,
+				CE09F1311D94CFB000505113 /* Info.plist in Resources */,
+				CE09F12F1D94CF5C00505113 /* ViewControllerStoryboard.storyboard in Resources */,
 				CE09F1041D92575A00505113 /* LaunchScreen.storyboard in Resources */,
-				CE09F1011D92575A00505113 /* Assets.xcassets in Resources */,
-				CE09F0FF1D92575A00505113 /* Main.storyboard in Resources */,
+				CE09F12A1D94CF0800505113 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +410,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE09F0FC1D92575A00505113 /* ViewController.swift in Sources */,
-				CE09F11A1D9259B900505113 /* MessageModel.swift in Sources */,
-				CE09F0FA1D92575A00505113 /* AppDelegate.swift in Sources */,
+				CE09F1351D94D15500505113 /* String+Message.swift in Sources */,
+				CE09F12C1D94CF0800505113 /* AppDelegate.swift in Sources */,
+				CE09F12D1D94CF0800505113 /* MessageModel.swift in Sources */,
+				CE09F1331D94D0DA00505113 /* MessageDefine.swift in Sources */,
+				CE09F1291D94CF0800505113 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,20 +438,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE09F0FD1D92575A00505113 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE09F0FE1D92575A00505113 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE09F1021D92575A00505113 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CE09F1031D92575A00505113 /* Base */,
+				CE8BFD021D94E769000F3918 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CE8BFD001D94E732000F3918 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8BFCFF1D94E732000F3918 /* Base */,
+				CE8BFD011D94E747000F3918 /* en */,
+				CE8BFD031D94E769000F3918 /* ja */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -387,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -436,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

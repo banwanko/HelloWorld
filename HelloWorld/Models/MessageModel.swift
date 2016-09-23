@@ -9,7 +9,14 @@
 import Foundation
 
 final class MessageModel {
+    /**
+     helloに指定したテキストを追加し返す
+     
+     - parameter text:
+     
+     - returns: String "hello" + text
+     */
     func helloWithText(text: String) -> String {
-        return "Hello \(text)"
+        return "\(String.hello) \(text)"
     }
 }
